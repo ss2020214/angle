@@ -2379,6 +2379,7 @@ void Display::initializeFrontendFeatures()
     ANGLE_FEATURE_CONDITION(&mFrontendFeatures, forceMinimumMaxVertexAttributes, false);
     ANGLE_FEATURE_CONDITION(&mFrontendFeatures, dumpTranslatedShaders, true);
     ANGLE_FEATURE_CONDITION(&mFrontendFeatures, enableTranslatedShaderSubstitution, true);
+    ANGLE_FEATURE_CONDITION(&mFrontendFeatures, disableProgramCaching, true);
     // Reject shaders with undefined behavior.  In the compiler, this only applies to WebGL.
     ANGLE_FEATURE_CONDITION(&mFrontendFeatures, rejectWebglShadersWithUndefinedBehavior, true);
 
