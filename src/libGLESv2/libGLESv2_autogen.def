@@ -204,6 +204,5 @@ EXPORTS
 
     ; EGL_NV_stream_consumer_gltexture_yuv
     EGL_StreamConsumerGLTextureExternalAttribsNV
-    SetString
     GetVulkanAllocator
     register_proxy_callback
